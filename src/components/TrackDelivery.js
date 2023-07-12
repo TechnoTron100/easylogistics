@@ -75,12 +75,6 @@ const TrackDelivery = ({ IsAuthenticated }) => {
           </div>
         </form>
       </div>
-      <div div className="copy-wthree" >
-        <p>
-          ©{Date.now} Logistics | All Rights Reserved |&nbsp;
-          <a href="https://www.codebeans.com.ng" target="_blank" rel='noreferrer'>CodeBeans</a>
-        </p>
-      </div>
     </div >
   );
 }

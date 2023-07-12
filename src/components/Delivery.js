@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'react-router-dom';
 
 
-function Delivery({IsAuthenticated}) {
+function Delivery({ IsAuthenticated }) {
   const [response, setResponse] = useState("");
   const [loading, setLoading] = useState(false);
   const [isSuccess, setSuccess] = useState(false);
@@ -105,12 +105,6 @@ function Delivery({IsAuthenticated}) {
           </div>
           <Link to="/track-delivery" className="btn-bottom">Waiting for a delivery? <span>Track it</span></Link>
         </form>
-      </div>
-      <div div className="copy-wthree" >
-        <p>
-          ©{Date.now} Logistics | All Rights Reserved |&nbsp;
-          <a href="https://www.codebeans.com.ng" target="_blank" rel='noreferrer'>CodeBeans</a>
-        </p>
       </div>
     </div>
   );

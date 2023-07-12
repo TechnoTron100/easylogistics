@@ -3,7 +3,7 @@ import '../index.css'
 import firebase from '../firebase'
 import { Link } from "react-router-dom";
 
-const AddUser = ({IsAuthenticated}) => {
+const AddUser = ({ IsAuthenticated }) => {
 
   const [response, setResponse] = useState("");
   const [loading, setLoading] = useState(false);
@@ -104,12 +104,6 @@ const AddUser = ({IsAuthenticated}) => {
           </div>
           <Link to="/" className="btn-bottom">Already have an account? <span>Login</span></Link>
         </form>
-      </div>
-      <div div className="copy-wthree" >
-        <p>
-          ©{Date.now} Logistics | All Rights Reserved |&nbsp;
-          <a href="https://www.codebeans.com.ng" target="_blank" rel='noreferrer'>CodeBeans</a>
-        </p>
       </div>
     </div >
   );

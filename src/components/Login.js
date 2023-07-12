@@ -77,12 +77,6 @@ const Login = ({ IsAuthenticated, SetAuthentication }) => {
           <Link to="/signup" className="btn-bottom">Don't have an account? <span>Sign Up</span></Link>
         </form>
       </div >
-      <div div className="copy-wthree" >
-        <p>
-          ©{Date.now} Logistics | All Rights Reserved |&nbsp;
-          <a href="https://www.codebeans.com.ng" target="_blank" rel='noreferrer'>CodeBeans</a>
-        </p>
-      </div>
     </div >
   );
 }
